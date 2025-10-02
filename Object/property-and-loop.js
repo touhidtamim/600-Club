@@ -23,3 +23,15 @@ if ("author" in article) {
 }
 
 //3
+const laptop = {
+  brand: "Dell",
+  model: "Inspiron",
+  price: 45000,
+};
+
+for (key in laptop) {
+  const value = laptop[key];
+  console.log(key, value);
+}
+
+//4
