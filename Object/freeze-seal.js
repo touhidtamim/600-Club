@@ -7,7 +7,6 @@ const headphone = {
 
 Object.freeze(headphone);
 headphone.port = "3.5 mm";
-
 console.log(headphone);
 
 //2
@@ -19,7 +18,6 @@ const player = {
 
 Object.freeze(player);
 player.country = "Argentina";
-
 console.log(player);
 
 //3
