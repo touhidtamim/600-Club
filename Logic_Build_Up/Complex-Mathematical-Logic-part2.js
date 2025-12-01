@@ -40,3 +40,4 @@ let Result = doubleOdd(Numbers);
 console.log(Result);
 
 //3
+function problem() {}
