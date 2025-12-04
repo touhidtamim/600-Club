@@ -41,3 +41,5 @@ console.log(Result);
 
 //3
 function problem3() {}
+//4
+function problem3() {}
