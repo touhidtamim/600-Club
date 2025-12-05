@@ -43,3 +43,5 @@ console.log(Result);
 function problem3() {}
 //4
 function problem3() {}
+//5
+function problem3() {}
