@@ -71,3 +71,21 @@ let Nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 let oddAvgResult = avgOdd(Nums);
 
 console.log(oddAvgResult);
+
+//5
+function minusOneFromOdd(arr) {
+  let newArr = [];
+
+  for (let num of arr) {
+    if (num % 2 !== 0) {
+      newArr.push(num - 1);
+    }
+  }
+
+  return newArr;
+}
+
+let Numbers = [1, 2, 3, 4, 5, 7, 8];
+let oddMinusResult = minusOneFromOdd(Numbers);
+
+console.log(oddMinusResult);
